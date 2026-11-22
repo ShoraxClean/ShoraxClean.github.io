@@ -133,7 +133,7 @@
       <p>Enquire about bulk pricing, or place your order directly.</p>
       <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:20px;">
         <a href="https://wa.me/918198982206" target="_blank" rel="noopener" class="btn btn-primary">Buy on WhatsApp</a>
-        <a href="#bulk-enquiry" class="btn btn-outline">Bulk Enquiry</a>
+        <a href="#contact" class="btn btn-outline">Bulk Enquiry</a>
       </div>
     </div>
   </div>
@@ -165,11 +165,16 @@
   </div>
 </section>
 
-<section id="bulk-enquiry">
-  <div class="container" style="max-width:560px;">
-    <div class="eyebrow">Bulk Enquiry</div>
-    <h2>Bulk orders for your business</h2>
-    <p class="sub" style="margin-bottom:28px;">Tell us what you need and we will get back to you.</p>
+<section id="contact" style="background: var(--ice);">
+  <div class="container contact-grid">
+    <div class="contact-info">
+      <div class="eyebrow" style="text-align:left;">Contact Us</div>
+      <h2 style="text-align:left;">Get ShoraX Today</h2>
+      <p style="margin-top: 10px;">Tell us what you need for bulk orders and we will get back to you. You can also reach us directly using the details here.</p>
+      <p><strong>Email</strong>[Add Business Email]</p>
+      <p><strong>Phone</strong>[Add Contact Number]</p>
+      <p><strong>Follow us</strong>Instagram · Facebook · YouTube · LinkedIn</p>
+    </div>
     <form class="contact-form" action="https://formsubmit.co/care.shorax@gmail.com" method="POST">
       <input type="hidden" name="_subject" value="New Bulk Enquiry - ShoraX">
       <input type="hidden" name="_captcha" value="true">
@@ -177,26 +182,6 @@
       <input type="tel" name="phone" placeholder="Phone Number" required>
       <textarea name="query" rows="5" placeholder="Query" required></textarea>
       <button type="submit" class="btn btn-primary">Submit Enquiry</button>
-    </form>
-  </div>
-</section>
-
-<section id="contact" style="background: var(--ice);">
-  <div class="container contact-grid">
-    <div class="contact-info">
-      <div class="eyebrow" style="text-align:left;">Contact Us</div>
-      <h2 style="text-align:left;">Get ShoraX Today</h2>
-      <p style="margin-top: 10px;">Reach out for product orders, bulk enquiries, or any questions about ShoraX.</p>
-      <p><strong>Email</strong>[Add Business Email]</p>
-      <p><strong>Phone</strong>[Add Contact Number]</p>
-      <p><strong>Follow us</strong>Instagram · Facebook · YouTube · LinkedIn</p>
-    </div>
-    <form class="contact-form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Thanks! We will be in touch.';">
-      <input type="text" placeholder="Your name" required>
-      <input type="email" placeholder="Email address" required>
-      <input type="tel" placeholder="Phone number">
-      <textarea rows="4" placeholder="Tell us about your enquiry (retail or bulk)"></textarea>
-      <button type="submit" class="btn btn-primary">Send Enquiry</button>
     </form>
   </div>
 </section>
